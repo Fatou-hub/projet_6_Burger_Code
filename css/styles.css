@@ -1,0 +1,102 @@
+/**/
+
+body
+{
+    background: url(../images/bg.png);
+}
+.site
+{
+    font-family: 'Holtwood One SC', sans-serif;
+}
+.text-logo
+{
+    font-family: 'Holtwood One SC', sans-serif;
+    color: #e7480f;
+    text-shadow: 2px 2px #ffd301;
+    font-size:50px;
+    padding: 40px 0px;/*40 pixels sur les cotés et 0pixel en haut et en bas*/
+    text-align: center;
+}
+.text-logo .glyphicon
+{
+    color:#ffd301; /*pour la couleur des fourchettes = icônes*/
+    text-shadow:0px 0px #ffd301 ; /*couleur ombre des fourchettes = icônes*/
+}
+.nav /*pour espacer notre barre de navigation des images en dessous*/
+{
+    margin-bottom: 40px;
+}
+.thumbnail img /*ceci est possible carles images sont détourés*/
+{
+    background: #ffd301;
+}
+.price
+{
+    background: #5cb85c;/*couleur de fonds*/
+    box-shadow: 0 1px rgba(0,0,0,0.2);
+    -moz-box-shadow:0 1px rgba(0,0,0,0.2);/*pour compatibilité avec les autres navigateurs*/
+    -webkit-box-shadow: 0 1px rgba(0,0,0,0.2);
+    color:#fff;                     /*couleur d'écriture*/
+    text-shadow: 2px 2px #333;/*ombre sur le prix*/
+    position: absolute;
+    right:6px;/*position du texte collé à droite à 6 pixels de la marge*/
+    top:20px; /*par rapport au haut de 20 pixels*/
+    padding: 5px 10px; /*marge interne du texte prix*/
+    font-size: 20px; /*taille du texte*/
+    border-radius:3px; /*bord arrondi enveloppant le prix sur fond vert*/
+}
+.price:before /*pour rajouter quelque chose avant*/
+{
+    border:4px solid transparent;
+    border-bottom:4px solid #4a934a;
+    border-left:4px solid #4a934a;
+    content:""; /*obligé de donner du contenu à ce before*/
+    position: absolute;
+    right:1px;
+    top:-8px;
+}
+.caption > h4 /*titre h4 pour chaque petite <div> ou se trouve les titres */
+{
+    color: #e7480f;
+    font-size:18px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+{
+    background:#e7480f;
+}
+.nav>li>a:focus, .nav>li>a:hover
+{
+    color:#e7480f;
+    background-color: #eee;
+}
+.nav>li>a
+{
+    color:#eee;
+    font-size:18px;
+    text-shadow:2px 2px #333;
+}
+.btn-order /*le bouton "commander"*/
+{
+    width:100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e7480f;
+    text-decoration: none;
+    text-shadow: 2px 2px #333;
+}
+.btn-order:hover, .btn-order:focus
+{
+    color: #fff;
+    background-color: #c13c0d;
+}
+
+/* DOSSIER ADMIN*/
+
+.admin
+{
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
