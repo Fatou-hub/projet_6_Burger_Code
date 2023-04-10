@@ -7,4 +7,4 @@
 📫 How to reach me : 
 email : fatou.cisse@stud.isg.fr
 
-https://fatou-hub.github.io/projet_6_Burger_Code/
+LINK TO MY PROJECT : https://fatou-hub.github.io/projet_6_Burger_Code/
